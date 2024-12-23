@@ -1,68 +1,108 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
-body {
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+/*LANDING*/
+
+.hero {
+  background-color: #c6e0f9;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
   display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+.hero__content {
+  margin-top: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-button {
+.content__logo {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.content__slogan {
+  font-family: "Fredoka", sans-serif;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 900;
+  font-stretch: expanded;
+  color: #214f50;
+  line-height: 1.31;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  margin-top: 15px;
+
+  /*//-webkit-text-stroke: 1px #1d9347*/
+}
+
+.content__button {
+  background-color: #faa115;
+  padding: 6px 15px;
   border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
+  border: none;
   cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+  margin-top: 25px;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
+.content__button:hover {
+  background-color: #214f50;
+}
+
+.button__a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Fredoka", sans-serif;
+  letter-spacing: 1.5px;
+}
+
+@media (min-width: 768px) {
+  .hero__content {
+    margin-top: 12rem;
   }
-  a:hover {
-    color: #747bff;
+
+  .content__logo {
+    width: 200px;
   }
-  button {
-    background-color: #f9f9f9;
+
+  .content__slogan {
+    font-size: 40px;
+    margin-left: 15px;
+    margin-right: 20px;
+  }
+
+  .content__button {
+    padding: 6px 18px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .content__logo {
+    width: 250px;
+  }
+
+  .content__slogan {
+    font-size: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .content__button {
+    padding: 7px 20px;
   }
 }
