@@ -1,8 +1,29 @@
-# React + Vite
+# 🌟 La Máquina del Tiempo 🌟
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**"Cada clic, un salto al pasado o al futuro."**
 
-Currently, two official plugins are available:
+Bienvenid@ a **La Máquina del Tiempo**, una aplicación interactiva que combina creatividad y funcionalidad. Explora el flujo del tiempo con esta sencilla herramienta que te llevará desde una landing hasta la experiencia completa del contador.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
+
+## 🚀 Capturas de Pantalla
+
+### 🌐 Landing Page
+
+_Añadiré captura aquí_
+
+### ⏳ Aplicación del Contador
+
+_Añadiré captura aquí_
+
+---
+
+## 🛠️ Tecnologías Utilizadas
+
+_En desarrollo..._
+
+---
+
+## ⚙️ Estado del Proyecto
+
+🛠️ **En desarrollo:** Actualmente trabajando en la implementación de la funcionalidad del contador y el diseño de la landing.
