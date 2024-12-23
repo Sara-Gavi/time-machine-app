@@ -160,3 +160,14 @@
   width: 100%;
   margin-top: 10px;
 }
+
+/* TIME MESSAGE */
+
+.counter__message {
+  font-size: 1.5rem;
+  color: #ffb005;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
