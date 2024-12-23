@@ -106,3 +106,57 @@
     padding: 7px 20px;
   }
 }
+
+/* COUNTER*/
+
+.counter__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.counter__title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #faa115;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+.counter__number {
+  font-size: 4rem;
+  font-weight: bold;
+  margin: 20px 0;
+  color: #333;
+}
+
+.counter__buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.counter__button {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #214f50;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.counter__button:hover {
+  background-color: #76a3d3;
+}
+
+.counter__button--reset {
+  width: 100%;
+  margin-top: 10px;
+}

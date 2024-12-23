@@ -14,7 +14,7 @@ function Counter() {
 
   return (
     <div className="counter__container">
-      <h1>Contador del Tiempo</h1>
+      <h1 className="counter__title">Contador del Tiempo</h1>
       <h2 className="counter__number">{count}</h2>
       <div className="counter__buttons">
         <button className="counter__button" onClick={handleIncrement}>
@@ -23,7 +23,10 @@ function Counter() {
         <button className="counter__button" onClick={handleDecrement}>
           Retroceder
         </button>
-        <button className="counter__button" onClick={handleReset}>
+        <button
+          className="counter__button counter__button__reset"
+          onClick={handleReset}
+        >
           Volver al presente
         </button>
       </div>
