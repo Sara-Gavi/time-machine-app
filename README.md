@@ -31,6 +31,7 @@ Bienvenid@ a **La Máquina del Tiempo**. Explora el flujo del tiempo con esta se
 - **React Router Dom:** Manejo de rutas entre páginas.
 - **CSS:** Estilos personalizados para diseño y experiencia.
 - **Vite:** Herramienta de desarrollo.
+- **Git/github:** Desarrollo principal realizado en la rama dev, con integración a main al finalizar.
 
 ## **🛠️ Mejoras Futuras**
 
