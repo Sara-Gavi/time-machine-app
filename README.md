@@ -19,11 +19,11 @@ Bienvenid@ a **La Máquina del Tiempo**. Explora el flujo del tiempo con esta se
 
 ### 🌐 Landing Page
 
-![Landing](src/images/capturaTiempo.png)
+![Landing](src/images/CapturaTiempo.png)
 
 ### ⏳ Aplicación del Contador
 
-![Contador](src/images/capturaContador.png)
+![Contador](src/images/CapturaContador.png)
 
 ## 🛠️ Tecnologías Utilizadas
 
