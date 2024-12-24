@@ -2,15 +2,15 @@
 
 **"Cada clic, un salto al pasado o al futuro."**
 
-Bienvenid@ a **La Máquina del Tiempo**, una aplicación interactiva que combina creatividad y funcionalidad. Explora el flujo del tiempo con esta sencilla herramienta.
+Bienvenid@ a **La Máquina del Tiempo**. Explora el flujo del tiempo con esta sencilla herramienta.
 
 - **Landing Page:**
   - Página inicial con un botón para navegar al contador.
 - **Contador del Tiempo:**
   - **Funcionalidad principal:**
-    - Incrementar (`Avanzar en el tiempo`).
-    - Decrementar (`Retroceder en el tiempo`).
-    - Reiniciar (`Volver al presente`).
+    - Incrementar (Avanzar en el tiempo).
+    - Decrementar (Retroceder en el tiempo).
+    - Reiniciar (Volver al presente).
   - **Límites en el contador:**
     - No permite retroceder más allá de 0 ni avanzar más allá de 10.
     - Muestra mensajes cuando se alcanzan los límites.
